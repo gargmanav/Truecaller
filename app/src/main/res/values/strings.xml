@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Test OAuth</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="retry_timer">retry again in %d seconds</string>
+    <string name="retry_now">retry now!!</string>
+    <string name="large_text">
+        "You're now signed in. \n\n\n"
+        --------------------------------------------------------------->>>
+        \n\nAuth Code is %1$s\n\n
+        Code Verifier is %2$s\n\n
+        State is %3$s\n\n
+        Requested State is %4$s\n\n
+        Scopes granted are %5$s\n\n
+        --------------------------------------------------------------->>>
+    </string>
+    <string name="access_token">Access Token is %s</string>
+    <string name="bearer_token">Bearer %s</string>
+    <string name="clientId">ltrz3nqew66ngdnce3gujdj9ab4frrv7prmbhav-qs8</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="signin">Signin</string>
+    <string name="verify">Verify</string>
+    <string name="register">Register</string>
+    <string name="get_started">Get Started</string>
+    <string name="rectangular_button">Rectangular Button Shape</string>
+    <string name="request_scopes">Request Scopes</string>
+    <string name="profile">Profile</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="openid">OpenId</string>
+    <string name="offline_access">Offline Access</string>
+    <string name="cta_color">cta color</string>
+    <string name="cta_text_color">cta text color</string>
+    <string name="cta_text">cta text</string>
+    <string name="login_info_prefix">login info prefix</string>
+    <string name="skip">Skip</string>
+    <string name="use_another_number_uan">Use Another Number (UAN)</string>
+    <string name="use_another_method">Use Another Method</string>
+    <string name="enter_details_manually">Enter Details Manually</string>
+    <string name="i_ll_do_later">I\'ll do later</string>
+    <string name="verify_all_users">Verify all users</string>
+    <string name="enter_locale_en">Enter locale : en</string>
+    <string name="let_s_go">Let\'s go</string>
+    <string name="enter_your_number">Enter your number</string>
+    <string name="proceed">Proceed</string>
+    <string name="loading">Loading…</string>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>To get started</item>
+        <item>To continue</item>
+        <item>To place order</item>
+        <item>To complete your purchase</item>
+        <item>To checkout</item>
+        <item>To complete your booking</item>
+        <item>To proceed with your booking</item>
+        <item>To continue with your booking</item>
+        <item>To get details</item>
+        <item>To view more</item>
+        <item>To continue reading</item>
+        <item>To proceed</item>
+        <item>For new updates</item>
+        <item>To get updates</item>
+        <item>To subscribe</item>
+        <item>To subscribe &amp; get updates</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Proceed</item>
+        <item>Continue</item>
+        <item>Accept</item>
+        <item>Confirm</item>
+    </string-array>
+    <string-array name="SdkPartnerSampleColors">
+        <item>#121E2C</item>
+        <item>white</item>
+        <item>#0f6cd9</item>
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>black</item>
+        <item>gray</item>
+        <item>cyan</item>
+        <item>magenta</item>
+        <item>yellow</item>
+        <item>lightgray</item>
+        <item>darkgray</item>
+        <item>grey</item>
+        <item>lightgrey</item>
+        <item>darkgrey</item>
+        <item>aqua</item>
+        <item>fuchsia</item>
+        <item>lime</item>
+        <item>maroon</item>
+        <item>navy</item>
+        <item>olive</item>
+        <item>purple</item>
+        <item>silver</item>
+        <item>teal</item>
+    </string-array>
+</resources>

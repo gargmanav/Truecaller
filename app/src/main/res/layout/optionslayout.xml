@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <RadioGroup
+            android:id="@+id/sdkTitleOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/zero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login" />
+
+            <RadioButton
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/signup" />
+
+            <RadioButton
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/signin" />
+
+            <RadioButton
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/verify" />
+
+            <RadioButton
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register" />
+
+            <RadioButton
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_started" />
+        </RadioGroup>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/shapeOptions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="@string/rectangular_button" />
+
+        <LinearLayout
+            android:id="@+id/scopes_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/request_scopes" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/profile_scope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:tag="profile"
+                android:text="@string/profile" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/phone_scope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:tag="phone"
+                android:text="@string/phone_number" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/openId_scope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:tag="openid"
+                android:text="@string/openid" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/offline_access_scope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:tag="offline_access"
+                android:text="@string/offline_access" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/cta_color"
+            android:textSize="12sp" />
+
+        <Spinner
+            android:id="@+id/color_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/cta_text_color"
+            android:textSize="12sp" />
+
+        <Spinner
+            android:id="@+id/color_text_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/cta_text"
+            android:textSize="12sp" />
+
+        <Spinner
+            android:id="@+id/cta_prefix_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/login_info_prefix"
+            android:textSize="12sp" />
+
+        <Spinner
+            android:id="@+id/prefix_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/additionalFooters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/skip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skip" />
+
+            <RadioButton
+                android:id="@+id/uan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/use_another_number_uan" />
+
+            <RadioButton
+                android:id="@+id/uam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/use_another_method" />
+
+            <RadioButton
+                android:id="@+id/edm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_details_manually" />
+
+            <RadioButton
+                android:id="@+id/idl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/i_ll_do_later" />
+
+        </RadioGroup>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sdkOptions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/verify_all_users" />
+
+        <EditText
+            android:id="@+id/localeEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_locale_en" />
+
+        <Button
+            android:id="@+id/buttonGo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:foreground="?selectableItemBackground"
+            android:text="@string/let_s_go" />
+
+    </LinearLayout>
+
+</ScrollView>
